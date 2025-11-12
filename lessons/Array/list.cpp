@@ -8,9 +8,9 @@ int main() {
 	// for(int i=0; i<5; i++) {
 	// 	cout << intArr[i] * intArr[3] << " ";
 	// };
-
-  // for(int i=0; i<5; i++) {
-	// 	cout << charArr[i] << " ";
-	// };
+  charArr[2] = 'v';
+  for(int i=0; i<5; i++) {
+		cout << charArr[i] << " ";
+	};
  return 0;
 }
