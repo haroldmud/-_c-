@@ -22,6 +22,6 @@ void counter() {
 
 int main() {
   reverser();
-  // counter();
+  counter();
   return 0;
 };
