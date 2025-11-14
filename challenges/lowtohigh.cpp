@@ -19,11 +19,22 @@ int main() {
 
 // FOR VECTORS
 int sum(vector<int> numbers)
+#include<vector>
+#include<algorithm>
+#include<iostream>
+using namespace std;
+
+int sum(vector<int> numbers)
 {
     sort(numbers.begin(), numbers.end());
     int sum = 0;
     for(int x: numbers) {
       sum += x;
+      cout << x << " ";
     }
-    return sum - numbers[0] - numbers[numbers.size() - 1];
+    if(numbers.size() < 2){
+      return 0;
+    } else {
+      return sum - numbers[0] - numbers[numbers.size() - 1];
+    }
 }
