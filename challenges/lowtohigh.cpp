@@ -18,7 +18,6 @@ int main() {
 // 10
 
 // FOR VECTORS
-int sum(vector<int> numbers)
 #include<vector>
 #include<algorithm>
 #include<iostream>
