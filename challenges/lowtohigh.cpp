@@ -15,7 +15,7 @@ int main() {
   cout << res;
   return 0;
 }
-// 10
+//output: 10
 
 // FOR VECTORS
 #include<vector>
