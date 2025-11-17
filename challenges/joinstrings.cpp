@@ -5,7 +5,7 @@ using namespace std;
 
 string smash(const vector<string>& words)
 {
-  if(words.empty()) return ""; //when the space will be added, the output will  
+  if(words.empty()) return ""; //when the space will be added, the output will be different from the expected one
 
   string sentence = "";
   vector<string> updated = words;
