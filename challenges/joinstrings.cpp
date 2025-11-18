@@ -24,3 +24,4 @@ int main() {
   smash(vector<string>{"bonjour", "paris"});
   return 0;
 }
+         
