@@ -1,36 +1,27 @@
 #include <iostream>
-//This is how you'll usually define a structure    
 using namespace std;
-struct MyOwnStructure { // keyword "struct" followed by a name, followed by braces containing the datatypes you like, followed by a semicolon
-    int property_one;
-    int property_two;
-    char property_three;
-    bool property_four;
-    //...
+
+struct person {
+	string name;
+    int age;
+    bool do_programming;
 };
 
-int main (void) {
-    MyOwnStructure demo1; //Declare demo1 of type MyOwnStructure
-    MyOwnStructure demo2; //Declare demo2 of type MyOwnStructure
+int main (void){
+    person p1;
+	person p2;
+    
+    
+    p1.name = "alice";
+    p1.age = 20;
+   	p1.do_programming = true;
 
-    //set demo1's with values
-    demo1.property_one = 1;
-    demo1.property_two = 2;
-    demo1.property_three = 'a';
-    demo1.property_four = false;
+    p2.name = "bob";
+    p2.age = 18;
+    p2.do_programming = false;
 
-    //set demo2's values
-    demo2.property_one = 3;
-    demo2.property_two = 4;
-    demo2.property_three = 'b';
-    demo2.property_four = true;
+    cout << p1.name << " (" << p1.age << ")" << endl;
+    cout << p2.name << " (" << p2.age << ")" << endl;
 
-    cout << "Demo1: " << demo1.property_one << demo1.property_two << demo1.property_three << demo1.property_four << endl;
-    cout << "Demo2: " << demo2.property_one << demo2.property_two << demo2.property_three << demo2.property_four << endl;
-    /*
-    Will output
-    Demo1: 12a0
-    Demo2: 34b1
-    */
     return 0;
 }
