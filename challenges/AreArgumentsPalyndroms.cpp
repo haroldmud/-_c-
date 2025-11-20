@@ -22,5 +22,6 @@ bool isAnagram(string test, string original){
     }
   }
   cout << original << " "<< test << " "<< except << " ";
+    // We found a palyndrom if no exception was found
   return (except == 0) ? true : false;
 }
