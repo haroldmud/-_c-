@@ -3,12 +3,12 @@ using namespace std;
 
 struct person {
 	string name;
-    int age;
-    bool do_programming;
+  int age;
+  bool do_programming;
 };
 
 int main (void){
-    person p1;
+  person p1;
 	person p2;
     
     
