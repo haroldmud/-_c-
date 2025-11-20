@@ -20,8 +20,8 @@ int main (void){
   p2.age = 18;
   p2.do_programming = false;
 
-  cout << p1.name << " (" << p1.age << ")" << endl;
-  cout << p2.name << " (" << p2.age << ")" << endl;
+  cout << p1.name << " (" << p1.age << ")" << endl; // alice (20)
+  cout << p2.name << " (" << p2.age << ")" << endl; // bob (18)
 
   return 0;
 }
