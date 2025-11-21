@@ -1,8 +1,8 @@
-# 🧠 Harold’s Coding Playground
+# 🧠 Harold’s Coding Playground <br>
 
-Welcome to my little corner of growth — this repo holds all my **lessons**, **exercises**, and **coding challenges** from different platforms (like CodeWars, LeetCode, etc.).
+Welcome to my little corner of growth — this repo holds all my **lessons**, **exercises**, and **coding challenges** from different platforms (like CodeWars, LeetCode, etc.). <br><br>
 
-It’s basically a timeline of me sharpening my skills, one problem at a time.
+It’s basically a timeline of me sharpening my skills, one problem at a time.<br><br>
 
 ---
 
