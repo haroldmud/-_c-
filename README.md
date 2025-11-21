@@ -6,7 +6,7 @@ It’s basically a timeline of me sharpening my skills, one problem at a time.<b
 
 ---
 
-## 📂 Structure
+## 📂 Structure <br>
 
 ```bash
 📦 coding-playground
