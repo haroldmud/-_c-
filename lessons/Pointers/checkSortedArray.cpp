@@ -3,8 +3,8 @@
 #include <string>
 using namespace std;
 
-int main(const vector<int>& numbers) {
+string is_sorted_and_how(const vector<int>& numbers) {
   int *point_number = numbers;
-  cout << point_number << endl;
-  return 0;
+  
 }
+
