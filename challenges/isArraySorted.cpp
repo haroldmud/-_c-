@@ -20,10 +20,8 @@ string is_sorted_and_how(const vector<int>& numbers) {
 
 
 // Ascending:
-
 // bool asc = std::is_sorted(numbers.begin(), numbers.end());
 
 
 // Descending:
-
 // bool desc = std::is_sorted(numbers.rbegin(), numbers.rend());
