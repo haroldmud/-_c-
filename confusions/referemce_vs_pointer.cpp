@@ -16,6 +16,7 @@ void demo() {
         cout << *(ptr + i) << " ";  // move and see each mailbox
         if (*(ptr + i) == 3) *(ptr + i) = 33; // modify while walking
     }
+
     cout << "\nAfter pointer walk: ";
     for (int n : v) cout << n << " ";
     cout << endl;
