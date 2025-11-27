@@ -11,7 +11,7 @@ void demo() {
     cout << "After reference update: " << v[3] << endl;
 
     // --- Pointer to walk through sequence ---
-    int* ptr = &v[0]; // walking stick at first mailbox
+    int* ptr = &v[0]; // walking stick at the first mailbox
     for (int i = 0; i < v.size(); i++) {
         cout << *(ptr + i) << " ";  // move and see each mailbox
         if (*(ptr + i) == 3) *(ptr + i) = 33; // modify while walking
