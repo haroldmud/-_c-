@@ -13,7 +13,7 @@ void demo() {
     // - Pointer to walk through sequence -
     int* ptr = &v[0]; // walking stick at the first mailbox
     for (int i = 0; i < v.size(); i++) {
-        cout << *(ptr + i) << " ";  // move and see each mailbox
+        cout << *(ptr + i) << " ";  // moves and see each mailbox
         if (*(ptr + i) == 3) *(ptr + i) = 33; // modify while walking
     }
 
