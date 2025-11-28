@@ -10,7 +10,7 @@ void demo() {
     ref = 4;          // changes 12 → 4
     cout << "After reference update: " << v[3] << endl;
 
-    // --- Pointer to walk through sequence ---
+    // - Pointer to walk through sequence -
     int* ptr = &v[0]; // walking stick at the first mailbox
     for (int i = 0; i < v.size(); i++) {
         cout << *(ptr + i) << " ";  // move and see each mailbox
