@@ -5,7 +5,7 @@ using namespace std;
 void demo() {
     vector<int> v = {1, 2, 3, 12, 5};
 
-    // --- Reference to update one item ---
+    // -- Reference to update one item --
     int& ref = v[3];  // key to the 4th mailbox
     ref = 4;          // changes 12 → 4
     cout << "After reference update: " << v[3] << endl;
