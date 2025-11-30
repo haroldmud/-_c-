@@ -10,7 +10,7 @@ string is_sorted_and_how(const vector<int>& numbers) {
     for (size_t i = 1; i < numbers.size(); ++i) { // i = 1, the initialization starts from the second item which then is compared to the first one
         if (numbers[i] < numbers[i-1]) asc = false;   // strict decrease breaks ascending
         if (numbers[i] > numbers[i-1]) desc = false;  // strict increase breaks descending
-        if (!asc && !desc) return "no";               // early exit
+        if (!asc && !desc) return "no";               // early exit by early return
     }
 
     if (asc) return "yes, ascending";
