@@ -11,7 +11,7 @@ int getCount(const string& inputStr){
   
 
   for(char n: inputStr) {
-    // find an item in an existing vector
+    // find an item in the existing vector
     auto it = find(vowels.begin(), vowels.end(), n);
     if(it != vowels.end()) {
       num_vowels++;
