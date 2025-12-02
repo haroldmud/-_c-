@@ -13,6 +13,6 @@ T sum(const vector<T>& nums) {
 
 int main() {
     vector<double> a = {1, 2, 2.5, 2.5};  // C++11 initializer list
-    cout << sum(a) << endl;               // prints 8
+    cout << sum(a) << endl;               // print
     return 0;
 }
