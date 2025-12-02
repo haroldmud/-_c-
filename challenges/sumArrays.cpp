@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 // Template function works with int, float, double, etc.
 template <typename T>
 T sum(const vector<T>& nums) {
