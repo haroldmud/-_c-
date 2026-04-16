@@ -9,7 +9,7 @@ struct person {
 
 int main (void){
   person p1;
-	person p2;
+  person p2;
     
     
   p1.name = "alice";
